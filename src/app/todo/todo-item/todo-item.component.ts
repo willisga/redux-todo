@@ -22,7 +22,7 @@ export class TodoItemComponent implements OnInit {
 
   @ViewChild("txtInputFisico") txtInputElement: ElementRef;
 
-  private editando: boolean;
+  editando: boolean;
 
   constructor(private store: Store<AppState>) {}
 
