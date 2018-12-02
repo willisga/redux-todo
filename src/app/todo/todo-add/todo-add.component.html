@@ -1,0 +1,6 @@
+<header class="header">
+    <h1>Por Hacer</h1>
+    <form [formGroup]="frmTask" (keydown)="add($event)">
+        <input class="new-todo" placeholder="¿Que necesita ser hecho?" autofocus formControlName="txtTask">
+    </form>
+</header>
